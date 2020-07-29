@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discovery" />
+        <module name="serviceQiaofeng" />
+        <module name="serviceA" />
+        <module name="serviceDemob" />
+        <module name="config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Config" target="1.5" />
+      <module name="serviceQiaofeng" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="serviceA" options="-parameters" />
+      <module name="serviceDemob" options="-parameters" />
+      <module name="serviceQiaofeng" options="-parameters" />
+    </option>
+  </component>
+</project>
