@@ -1,0 +1,4 @@
+springCloud组件用例
+1. 在d:/softwares/nacos 下启动nacos ，通过url进入nacos ： http://localhost:8848/nacos
+2. serviceDemob 中进行配置，通过url 访问 http://localhost:8082/feignHello?userName=feignFriends 发起请求验证负载及失败重试
+3. 配置请求如果超过  则重试，在serviceA 中设置进程睡眠10s，
